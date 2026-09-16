@@ -1,0 +1,87 @@
+{
+    "library": {
+        "name": "Gotham City Library",
+        "branch": "Central",
+        "year": 2026
+    },
+    "categories": [
+        "Fiction",
+        "Non-Fiction",
+        "Science",
+        "History",
+        "Technology",
+        "Comedy"
+    ],
+    "books": {
+        "B101": {
+            "title": "The Comedian",
+            "author": "The Joker",
+            "category": "History",
+            "available": true
+        },
+        "B102": {
+            "title": "Puzzle Me This",
+            "author": "The Riddler",
+            "category": "Fiction",
+            "available": true
+        },
+        "B103": {
+            "title": "How To Be Immortal",
+            "author": "Ra's Al Ghul",
+            "category": "Non-Fiction",
+            "available": true
+        },
+        "B104": {
+            "title": "Ideals are Overrated",
+            "author": "Two-Face",
+            "category": "Non-Fiction",
+            "available": true
+        },
+        "B105": {
+            "title": "I, Mr. Cool",
+            "author": "Mr. Freeze",
+            "category": "Science",
+            "available": true
+        },
+        "B106": {
+            "title": "PSYCHED!",
+            "author": "Scarecrow",
+            "category": "Science",
+            "available": true
+        },
+        "B107": {
+            "title": "Strength in Loneliness",
+            "author": "Bane",
+            "category": "Non-Fiction",
+            "available": true
+        },
+        "B108": {
+            "title": "The Freak Emperor",
+            "author": "The Penguin",
+            "category": "History",
+            "available": true
+        },
+        "B109": {
+            "title": "Love Thy Plants",
+            "author": "Poison Ivy",
+            "category": "Science",
+            "available": true
+        },
+        "B110": {
+            "title": "Girls Just Wanna Have Fun",
+            "author": "Harley Quinn",
+            "category": "Comedy",
+            "available": false
+        }
+    },
+    "loans": [
+        {
+            "book_id": "B110",
+            "borrower": "Bob"
+        },
+        {
+            "book_id": "B105",
+            "borrower": "Charlie"
+        }
+    ]
+}
